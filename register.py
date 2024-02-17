@@ -20,11 +20,11 @@ class Register:
         self.var_confpass=StringVar()
         self.var_check=StringVar()
 
-        self.bg=ImageTk.PhotoImage(file="C:\\Users\\Prathamesh\\Desktop\\attend me\\images\\bg2.jpg")
+        self.bg=ImageTk.PhotoImage(file="C:\\Users\\HP\\Downloads\\attend-me-master\\attend-me-master\\images\\bg2.jpg")
         lbl_bg=Label(self.root,image=self.bg)
         lbl_bg.place(x=0,y=0,relwidth=1,relheight=1)
 
-        self.bg1=ImageTk.PhotoImage(file="C:\\Users\\Prathamesh\\Desktop\\attend me\\images\\bg2.jpg")
+        self.bg1=ImageTk.PhotoImage(file="C:\\Users\\HP\\Downloads\\attend-me-master\\attend-me-master\\images\\bg2.jpg")
         left_bg=Label(self.root,image=self.bg1)
         left_bg.place(x=50,y=100,width=470,height=550)
 
@@ -90,13 +90,13 @@ class Register:
         checkbtn=Checkbutton(frame,variable=self.var_check,text="I Agree The Terms And Condition",font=("times new roman",12,"bold"),onvalue=1,offvalue=0)
         checkbtn.place(x=50,y=380)
 
-        img=Image.open("C:\\Users\\Prathamesh\\Desktop\\attend me\\images\\bg2.jpg")
+        img=Image.open("C:\\Users\\HP\\Downloads\\attend-me-master\\attend-me-master\\images\\bg2.jpg")
         img=img.resize((200,50),Image.ANTIALIAS)
         self.photoimage=ImageTk.PhotoImage(img)
         b1=Button(frame,image=self.photoimage,command=self.register_data,borderwidth=0,cursor="hand2")
         b1.place(x=10,y=440,width=200)
 
-        img1=Image.open("C:\\Users\\Prathamesh\\Desktop\\attend me\\images\\bg2.jpg")
+        img1=Image.open("C:\\Users\\HP\\Downloads\\attend-me-master\\attend-me-master\\images\\bg2.jpg")
         img1=img1.resize((200,50),Image.ANTIALIAS)
         self.photoimage1=ImageTk.PhotoImage(img1)
         b1=Button(frame,image=self.photoimage1,borderwidth=0,cursor="hand2")
